@@ -1,0 +1,18 @@
+# multilevel inheritance
+class Person(): 
+ 
+   def name(self): 
+       print ("person Name: sam")
+ 
+class Home(Person):
+   def location(self):
+       print ("location: manhattan")  
+ 
+class Post(Home):
+   def _work(self):
+       print ("profession: computer scientist") 
+ 
+w = Post()
+w.name()
+w.location()
+w._work()  
