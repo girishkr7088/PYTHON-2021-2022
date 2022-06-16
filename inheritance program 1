@@ -1,5 +1,5 @@
 # multilevel inheritance
-class Person(): 
+class Person:  
  
    def name(self): 
        print ("person Name: sam")
