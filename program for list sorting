@@ -1,0 +1,17 @@
+# WAP to sort elements of heterogeneous list in python 
+List=["abc",5,"a",True,"b"]
+L1=[]
+L2=[]
+L3=[]
+L4=[]
+for i in List :
+        if type(i)==str :
+                    L1.append(i)
+        elif type(i)==int :
+                    L2.append(i)
+        else :
+                    L3.append(i)
+L4.extend(L1)
+L4.extend(L2)
+L4.extend(L3)
+print(L4) 
