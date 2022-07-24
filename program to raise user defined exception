@@ -1,0 +1,25 @@
+class NegativeAgeError(Exception):
+          pass
+try:
+          age=-10
+          print("age is",age)
+          if age<=0:
+                 raise NegativeAgeError
+          year_of_birth=2022-age
+          print("year_of_birth is",year_of_birth)
+except NegativeAgeError:
+          print("input correct age") 
+          
+# solution for this is ~ 
+
+class NegativeAgeError(Exception):
+          pass
+try:
+          age=10
+          print("age is",age)
+          if age<=0:
+                 raise NegativeAgeError
+          year_of_birth=2022-age
+          print("year_of_birth is",year_of_birth)
+except NegativeAgeError:
+          print("input correct age") 
