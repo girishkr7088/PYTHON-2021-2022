@@ -1,0 +1,10 @@
+class Employee:
+        def message(self):
+              print("this message is from employee class")
+class Company(Employee):
+        def message(self):
+              print("this is company class inherit from employee")
+emp=Employee()
+emp.message() 
+comp=Company()
+comp.message() 
