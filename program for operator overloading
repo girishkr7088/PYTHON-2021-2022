@@ -1,0 +1,10 @@
+# code for operator overloading-
+
+# ADDITION OF TWO NUMBERS
+print(3+2)
+# CONCATENATE TWO STRINGS
+print("GKTCS"+"Innovations")
+# PRODUCT OF TWO NUMBERS
+print(3*2)
+# REPEAT THE STRING
+print("GKTCS"*3) 
