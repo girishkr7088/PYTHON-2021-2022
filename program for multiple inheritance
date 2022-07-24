@@ -1,0 +1,12 @@
+class Class1:
+        def q(self):
+                print("in class 1")
+class Class2():
+        def q(self):
+                print("in class 2")
+class Class3(Class1,Class2):
+        def q(self):
+                print("in class 3")
+w=Class3()
+w.q() 
+Class2.q(w)  
