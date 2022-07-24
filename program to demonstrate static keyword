@@ -1,0 +1,10 @@
+class Student:
+        course="CSE"
+        def __init__(self,name,age):
+                      self.name=name
+                      self.age=age
+obj=Student("Ram",20)
+print(obj.name,obj.age)
+obj.course="MATHS"
+print(obj.course)
+print(Student.course) 
