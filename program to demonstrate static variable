@@ -1,0 +1,9 @@
+# program to demonstrate static variable
+class Example:
+    staticvariable=9
+print(Example.staticvariable)
+instance=Example()
+print(instance.staticvariable)
+instance.staticvariable=12
+print(instance.staticvariable)
+print(Example.staticvariable)
