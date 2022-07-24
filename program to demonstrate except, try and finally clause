@@ -1,0 +1,10 @@
+dividend=float(input("enter the value :"))
+divisor=float(input("enter the value :"))
+try:
+    quotient=dividend/divisor
+except ZeroDivisionError:
+    print("value cannot be divided by zero") 
+else:
+    print(quotient) 
+finally:
+    print("success")                   
