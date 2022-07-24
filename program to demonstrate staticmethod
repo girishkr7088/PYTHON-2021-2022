@@ -1,0 +1,9 @@
+class Employee:
+        @staticmethod
+        def salary(x):
+               print("it is",x)
+# call static method
+Employee.salary(10000)
+# can be called by using object
+obj=Employee()
+obj.salary(10000) 
