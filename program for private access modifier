@@ -1,0 +1,16 @@
+class Student:
+    __name=None
+    __roll=None
+    __branch=None
+    def __init__(self,name,roll,branch):
+        self.__name=name
+        self.__roll=roll
+        self.__branch=branch
+    def __display(self):
+        print("name is",self.__name)
+        print("roll is",self.__roll)
+        print("branch is",self.__branch)
+    def accessPrivateFunction(self):
+        self.__display() 
+obj=Student("Ram",20,"CSE")
+obj.accessPrivateFunction()
