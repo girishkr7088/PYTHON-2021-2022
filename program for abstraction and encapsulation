@@ -1,0 +1,24 @@
+from abc import ABC,abstractmethod
+class Car(ABC):
+      def speed(self):
+            pass
+class Bmw(Car):
+      def speed(self):
+            print("the speed is 60mph")
+class Audi(Car):
+      def speed(self):
+            print("the speed is 70mph")
+class Pagani(Car):
+      def speed(self):
+            print("the speed is 80mph")
+class Ferrari(Car):
+      def speed(self):
+            print("the speed is 90mph")  
+b=Bmw()
+b.speed()
+a=Audi()
+a.speed()
+p=Pagani()
+p.speed()
+f=Ferrari()
+f.speed() 
