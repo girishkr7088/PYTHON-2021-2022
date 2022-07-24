@@ -1,0 +1,20 @@
+class Polygon:
+    def area(self):
+        print("these are the area of polygons")
+class Circle(Polygon):
+    def __init__(self,radius):
+        self.radius=radius
+    def area(self):
+        print("area of circle is",3.14*self.radius**2)
+class Rectangle(Polygon):
+    def __init__(self,l,b):
+        self.l=l
+        self.b=b
+    def area(self):
+        print("area of rectangle is",self.l*self.b) 
+obj=Circle(2)
+obj.area()
+objw=Rectangle()
+objw.area() 
+
+
