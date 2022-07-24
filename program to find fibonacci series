@@ -1,0 +1,12 @@
+first=0
+second=1
+num=int(input("enter value for fibonacci series : "))
+print("fibonacci series is : ")
+for i in range (0,num) :
+        if i<=1 :
+                   result=i
+        else :
+                   result=first+second
+                   first=second
+                   second=result
+        print(result)
