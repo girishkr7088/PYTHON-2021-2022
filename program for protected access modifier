@@ -1,0 +1,16 @@
+class Student:
+    _name=None
+    _roll=None
+    _branch=None
+    def __init__(self,name,roll,branch):
+        self._name=name
+        self._roll=roll
+        self._branch=branch
+    def _display(self):
+        print("name is",self._name)
+        print("roll is",self._roll)
+        print("branch is",self._branch)
+    def accessProtectedFunction(self):
+        self._display() 
+obj=Student("Ram",20,"CSE")
+obj.accessProtectedFunction()
