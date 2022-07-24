@@ -1,0 +1,8 @@
+dividend=float(input("enter the value :"))
+divisor=float(input("enter the value :"))
+quotient=dividend/divisor
+if divisor==0:
+       raise ZeroDivisonError("value cannot be divided by zero") 
+else:
+       print("quotient is",quotient)   
+       
