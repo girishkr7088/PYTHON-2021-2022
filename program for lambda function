@@ -1,0 +1,2 @@
+x=lambda W,w,R : R*2+W-8+w
+print(x(4,6,10))    
