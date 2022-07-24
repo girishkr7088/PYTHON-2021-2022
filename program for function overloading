@@ -1,0 +1,14 @@
+# code for method or function overloading-
+
+# TAKES TWO ARGUMENT AND PRINT THEIR ADDITION
+def addition(a,b):
+        x=a+b
+        print(x)
+# TAKES THREE ARGUMENT AND PRINT THEIR ADDITION
+def addition(a,b,c):
+        x=a+b+c
+        print(x)
+# BELOW LINE SHOWS AN ERROR 
+addition(7,2)
+# THIS LINE WILL CALL SECOND ADDITION METHOD
+addition(2,5,1) 
