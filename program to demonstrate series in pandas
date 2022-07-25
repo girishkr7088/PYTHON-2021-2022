@@ -1,0 +1,5 @@
+import pandas as pd
+data={"cars":["lambo","pagani","bmw","ferrari"],
+"location":["sant agata","modena","berlin","milan"]}
+w=pd.Series(data) 
+print(w) 
