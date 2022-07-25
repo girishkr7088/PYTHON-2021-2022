@@ -1,0 +1,11 @@
+file=open("sample.txt","w")
+file.write("hello world")
+file.close() 
+file=open("sample.txt","a")
+file.write(" python program")
+file.close() 
+file=open("sample.txt","r")
+print(file.read())
+file.close() 
+import os
+os.remove("sample.txt") 
