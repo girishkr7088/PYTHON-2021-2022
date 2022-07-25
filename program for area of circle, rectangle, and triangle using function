@@ -1,0 +1,20 @@
+# area of cirlce using function
+r=float(input("enter the radius "))
+pi=3.14
+def area_circle(r):
+    print("area of circle is",pi*r**2)
+area_circle(r) 
+
+# area of rectangle using function
+l=float(input("enter the length "))
+b=float(input("enter the breath "))
+def area_rectangle(l,b):
+    print("area of rectangle is",l*b)
+area_rectangle(l,b)
+
+# area of triangle using function
+b=float(input("enter the base "))
+h=float(input("enter the height "))
+def area_triangle(b,h):
+    print("area of triangle is",0.5*b*h) 
+area_triangle(b,h)
