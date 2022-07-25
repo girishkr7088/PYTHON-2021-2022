@@ -1,0 +1,7 @@
+import numpy as np
+p=[[1,2],[9,8]]
+q=[[4,5],[7,8]]
+print("matrix p is",p)
+print("matrix q is",q)
+result=np.dot(p,q)
+print("matrix multiplication of p and q is",result) 
