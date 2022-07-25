@@ -1,0 +1,8 @@
+import pandas as pd
+data={"name of students":["Ram","Shyam","Rohit","Rahul"],
+"marks in maths":[34,67,43,12],
+"marks in science":[98,56,32,55],
+"marks in hindi":[47,46,21,44],
+"marks in english":[88,67,43,14]} 
+w=pd.DataFrame(data,index=["a","b","c","d"])  
+print(w)  
